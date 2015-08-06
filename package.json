@@ -12,10 +12,11 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "bower": "1.x"
+  "devDependencies": {
+    "bower": "1.x",
+    "gulp": "^3.9"
   },
   "scripts": {
-    "install": "bower install"
+    "prepublish": "bower install"
   }
 }
