@@ -2,4 +2,4 @@
 
 Delete all lines matching a pattern.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](https://cloud.githubusercontent.com/assets/11895736/9059065/5a53125e-3ad9-11e5-93da-d4dcb93f228c.gif)
