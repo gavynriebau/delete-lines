@@ -1,0 +1,70 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.delete-lines {
+  padding: @component-padding;
+
+  .header {
+    min-width: 200px;
+    margin-bottom: @component-padding;
+  }
+
+  .editor-wrap {
+    display: flex;
+
+    * {
+      flex-grow: 1;
+    }
+
+    #delete-editor {
+      flex-grow: 100;
+      margin-right: @component-padding;
+
+      background-color: @input-background-color;
+      border: 1px solid @input-border-color;
+      border-radius: 2px;
+      padding: @component-padding / 2;
+      color: white;
+    }
+  }
+
+  .subtle-info-message {
+    margin-left: @component-padding / 2;
+    color: @text-color-subtle;
+
+    .highlight {
+      color: @text-color;
+      font-weight: normal;
+    }
+  }
+
+  .highlight {
+    color: @text-color-highlight;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 2px;
+    padding: 1px 3px;
+    text-shadow: none;
+  }
+
+  input[type=text] {
+    &:focus {
+      border: 2px solid @button-background-color-selected !important;
+    }
+  }
+
+  .btn {
+    height: 27px;
+
+    .icon {
+      width: 20px;
+      height: 16px;
+      vertical-align: middle;
+      fill: currentColor;
+      stroke: currentColor;
+    }
+  }
+
+}
