@@ -1,0 +1,18 @@
+{
+  "name": "delete-lines",
+  "main": "./lib/delete-lines",
+  "version": "0.1.0",
+  "description": "Delete all lines matching a pattern",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "delete-lines:toggle"
+  },
+  "repository": "https://github.com/atom/delete-lines",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
