@@ -13,6 +13,6 @@
     "tests"
   ],
   "dependencies": {
-    "knockoutjs": "~3.3.0"
+    "knockout-secure-binding": "^0.5.1"
   }
 }

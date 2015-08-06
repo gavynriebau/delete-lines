@@ -1,5 +1,5 @@
 utils = require './utils'
-ko = require './knockout.debug.js'
+ko = require './knockout-secure-binding.js'
 
 module.exports =
 class DeleteLinesView
