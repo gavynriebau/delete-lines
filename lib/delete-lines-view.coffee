@@ -21,7 +21,7 @@ class DeleteLinesView
     # Create observable values
     @editorText = ko.observable()
     @useRegex = ko.observable true
-    @ignoreCase = ko.observable false
+    @ignoreCase = ko.observable true
     @invertMatch = ko.observable false
 
     # Load the HTML file.
