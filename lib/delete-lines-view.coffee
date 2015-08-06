@@ -1,5 +1,15 @@
 utils = require './utils'
-ko = require './knockout-secure-binding.js'
+ko = require './knockout.debug.js'
+window.ko = ko
+ksb = require './knockout-secure-binding.js'
+
+options =
+  attribute: "data-bind"
+  globals: window
+  bindings: ko.bindingHandlers
+  noVirtualElements: false
+
+ko.bindingProvider.instance = new ko.secureBindingsProvider(options)
 
 module.exports =
 class DeleteLinesView
