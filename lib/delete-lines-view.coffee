@@ -1,5 +1,5 @@
 utils = require './utils'
-ko = require '../scripts/knockout.debug.js'
+ko = require '../lib/knockout.debug.js'
 
 module.exports =
 class DeleteLinesView
