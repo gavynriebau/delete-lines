@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "delete-lines:toggle"
   },
-  "repository": "https://github.com/atom/delete-lines",
+  "repository": "https://github.com/gavynriebau/delete-lines",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
